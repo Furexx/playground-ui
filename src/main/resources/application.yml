@@ -1,0 +1,19 @@
+application:
+  id: 93
+  name: playground-ui
+  systemuser:
+    username: dplayground-ui
+    password: BzhPEP5mrs8kEM2N
+
+spring:
+  application.name: playground-ui
+
+webservice:
+  url:
+    playground: http://localhost:8080/playground-ws
+
+server:
+  servlet:
+    context-path: /playground
+    session.tracking-modes: cookie
+  port: 8088
